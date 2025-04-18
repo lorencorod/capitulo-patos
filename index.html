@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Capítulo DeMolay - [Nome]</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #001f3f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #ffdd57;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: #0074D9;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h3 {
+      margin-bottom: 10px;
+      color: #001f3f;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .event {
+      background: white;
+      padding: 15px;
+      margin-top: 10px;
+      border-left: 5px solid #0074D9;
+      border-radius: 5px;
+    }
+
+    footer {
+      background-color: #001f3f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 20px;
+      }
+
+      .hero h2 {
+        font-size: 24px;
+      }
+
+      nav a {
+        display: block;
+        margin: 5px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Capítulo DeMolay - [Nome]</h1>
+    <nav>
+      <a href="#about">Sobre</a>
+      <a href="#officers">Liderança</a>
+      <a href="#events">Eventos</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Bem-vindo ao Capítulo DeMolay</h2>
+    <p>Formando líderes, servindo à comunidade, fortalecendo amizades.</p>
+  </section>
+
+  <section id="about">
+    <h3>Sobre o Capítulo</h3>
+    <p>Fundado em [Ano], o Capítulo DeMolay [Nome] promove valores de cidadania, liderança e fraternidade entre jovens de 12 a 21 anos.</p>
+  </section>
+
+  <section id="officers">
+    <h3>Liderança Atual</h3>
+    <ul>
+      <li><strong>Lucca Nakao</strong> - Mestre Conselheiro</li>
+      <li><strong>Vitor Roccini</strong> - 1º Conselheiro</li>
+      <li><strong>Luis Felipe</strong> - 2º Conselheiro</li>
+    </ul>
+  </section>
+
+  <section id="events">
+    <h3>Eventos Recentes</h3>
+    <div class="event">
+      <h4>Instalação da Nova Trindade</h4>
+      <p><em>15/04/2025</em></p>
+      <p>Cerimônia especial com a presença de autoridades, familiares e irmãos de toda a região.</p>
+    </div>
+    <div class="event">
+      <h4>Campanha Solidária</h4>
+      <p><em>30/03/2025</em></p>
+      <p>Arrecadação de alimentos e roupas para famílias em situação de vulnerabilidade social.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Capítulo DeMolay - [Nome]. Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    // Efeito de rolagem suave ao clicar nos links do menu
+    document.querySelectorAll("nav a").forEach(link => {
+      link.addEventListener("click", function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute("href"));
+        target.scrollIntoView({ behavior: "smooth" });
+      });
+    });
+  </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Capítulo DeMolay - [Nome]</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #001f3f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #ffdd57;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: #0074D9;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h3 {
+      margin-bottom: 10px;
+      color: #001f3f;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .event {
+      background: white;
+      padding: 15px;
+      margin-top: 10px;
+      border-left: 5px solid #0074D9;
+      border-radius: 5px;
+    }
+
+    footer {
+      background-color: #001f3f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 20px;
+      }
+
+      .hero h2 {
+        font-size: 24px;
+      }
+
+      nav a {
+        display: block;
+        margin: 5px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Capítulo DeMolay - [Nome]</h1>
+    <nav>
+      <a href="#about">Sobre</a>
+      <a href="#officers">Liderança</a>
+      <a href="#events">Eventos</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Bem-vindo ao Capítulo DeMolay</h2>
+    <p>Formando líderes, servindo à comunidade, fortalecendo amizades.</p>
+  </section>
+
+  <section id="about">
+    <h3>Sobre o Capítulo</h3>
+    <p>Fundado em [Ano], o Capítulo DeMolay [Nome] promove valores de cidadania, liderança e fraternidade entre jovens de 12 a 21 anos.</p>
+  </section>
+
+  <section id="officers">
+    <h3>Liderança Atual</h3>
+    <ul>
+      <li><strong>Lucca Nakao</strong> - Mestre Conselheiro</li>
+      <li><strong>Vitor Roccini</strong> - 1º Conselheiro</li>
+      <li><strong>Luis Felipe</strong> - 2º Conselheiro</li>
+    </ul>
+  </section>
+
+  <section id="events">
+    <h3>Eventos Recentes</h3>
+    <div class="event">
+      <h4>Instalação da Nova Trindade</h4>
+      <p><em>15/04/2025</em></p>
+      <p>Cerimônia especial com a presença de autoridades, familiares e irmãos de toda a região.</p>
+    </div>
+    <div class="event">
+      <h4>Campanha Solidária</h4>
+      <p><em>30/03/2025</em></p>
+      <p>Arrecadação de alimentos e roupas para famílias em situação de vulnerabilidade social.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Capítulo DeMolay - [Nome]. Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    // Efeito de rolagem suave ao clicar nos links do menu
+    document.querySelectorAll("nav a").forEach(link => {
+      link.addEventListener("click", function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute("href"));
+        target.scrollIntoView({ behavior: "smooth" });
+      });
+    });
+  </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Capítulo DeMolay - [Nome]</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #001f3f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #ffdd57;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: #0074D9;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h3 {
+      margin-bottom: 10px;
+      color: #001f3f;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .event {
+      background: white;
+      padding: 15px;
+      margin-top: 10px;
+      border-left: 5px solid #0074D9;
+      border-radius: 5px;
+    }
+
+    footer {
+      background-color: #001f3f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 20px;
+      }
+
+      .hero h2 {
+        font-size: 24px;
+      }
+
+      nav a {
+        display: block;
+        margin: 5px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Capítulo DeMolay - [Nome]</h1>
+    <nav>
+      <a href="#about">Sobre</a>
+      <a href="#officers">Liderança</a>
+      <a href="#events">Eventos</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Bem-vindo ao Capítulo DeMolay</h2>
+    <p>Formando líderes, servindo à comunidade, fortalecendo amizades.</p>
+  </section>
+
+  <section id="about">
+    <h3>Sobre o Capítulo</h3>
+    <p>Fundado em [Ano], o Capítulo DeMolay [Nome] promove valores de cidadania, liderança e fraternidade entre jovens de 12 a 21 anos.</p>
+  </section>
+
+  <section id="officers">
+    <h3>Liderança Atual</h3>
+    <ul>
+      <li><strong>Lucca Nakao</strong> - Mestre Conselheiro</li>
+      <li><strong>Vitor Roccini</strong> - 1º Conselheiro</li>
+      <li><strong>Luis Felipe</strong> - 2º Conselheiro</li>
+    </ul>
+  </section>
+
+  <section id="events">
+    <h3>Eventos Recentes</h3>
+    <div class="event">
+      <h4>Instalação da Nova Trindade</h4>
+      <p><em>15/04/2025</em></p>
+      <p>Cerimônia especial com a presença de autoridades, familiares e irmãos de toda a região.</p>
+    </div>
+    <div class="event">
+      <h4>Campanha Solidária</h4>
+      <p><em>30/03/2025</em></p>
+      <p>Arrecadação de alimentos e roupas para famílias em situação de vulnerabilidade social.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Capítulo DeMolay - [Nome]. Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    // Efeito de rolagem suave ao clicar nos links do menu
+    document.querySelectorAll("nav a").forEach(link => {
+      link.addEventListener("click", function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute("href"));
+        target.scrollIntoView({ behavior: "smooth" });
+      });
+    });
+  </script>
+</body>
+</html>
+
